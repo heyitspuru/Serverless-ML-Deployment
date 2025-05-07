@@ -22,39 +22,12 @@ Cold Start vs Warm Start Performance Benchmarking
 
 Cost Analysis for serverless inference
 
-Comprehensive Documentation following Springer Paper Guidelines
-
-📈 Project Structure
-css
-Copy
-Edit
-├── data/
-│   └── (Used Scikit-learn Diabetes Dataset)
-├── notebooks/
-│   └── model_training_and_tuning.ipynb
-├── deploy_folder/
-│   ├── main.py
-│   ├── requirements.txt
-│   ├── diabetes_best_model.keras
-│   ├── rf_model.pkl
-│   ├── gb_model.pkl
-│   ├── scaler.pkl
-├── cloud_deploy/
-│   └── deploy_to_gcf.ipynb
-├── benchmark/
-│   └── latency_cost_analysis.ipynb
-├── diagrams/
-│   └── project_activity_diagram.puml
-│   └── project_activity_diagram.png
-├── research_paper/
-│   └── full_paper.docx
-├── README.md
 ⚙️ Setup Instructions
 1. Clone the Repository
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/diabetes-serverless-ml.git
+git clone https://github.com/heyitspuru/Serverless-ML-Deployment/tree/main Ml deployment.git
 cd diabetes-serverless-ml
 2. Install Required Packages
 bash
@@ -139,7 +112,6 @@ Google Cloud Functions (Gen2)
 
 Google Cloud Storage
 
-PlantUML (for activity diagrams)
 
 📚 References
 Refer to the full research paper for a detailed list of references cited in this work (15+ papers from top sources).
